@@ -12,6 +12,12 @@ def batch_badge_creator(array)
  return newArray
 end
 
-def assign_rooms
-  return 
+def assign_rooms(array)
+  newArray = []
+  counter = 1
+  array.each do |name|
+    nuarray.push("Hello, #{name}! You'll be assigned to room #{counter}!")
+    counter += 1
+  end
+  return nuarray
 end
